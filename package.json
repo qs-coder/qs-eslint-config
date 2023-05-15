@@ -1,22 +1,26 @@
 {
-  "name": "qs-eslint-config",
+  "name": "@qs-coder/eslint-config",
   "version": "1.0.0",
   "description": "Qingshi eslint config",
-  "author": "qs-corder <chenpenglei000@gmail.com>",
+  "author": "qs-coder <chenpenglei000@gmail.com>",
   "license": "ISC",
   "repository": "git@github.com:qs-coder/qs-eslint-config.git",
   "keywords": [
     "qingshi",
+    "qs-coder",
     "eslint",
-    "eslint-config"
+    "eslint-config",
+    "lint"
   ],
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "release": "bump -r && pnpm -r publish"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.6",
+    "bumpp": "^9.1.0",
     "eslint-config-airbnb": "^19.0.4"
   },
   "eslintConfig": {

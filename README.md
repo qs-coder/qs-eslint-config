@@ -15,6 +15,7 @@ pnpm add -D eslint @qs-coder/eslint-config
 
 ```json
 {
+  "root": true,
   "extends": "@qs-coder"
 }
 ```

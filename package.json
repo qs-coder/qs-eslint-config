@@ -1,0 +1,27 @@
+{
+  "name": "qs-eslint-config",
+  "version": "1.0.0",
+  "description": "Qingshi eslint config",
+  "author": "qs-corder <chenpenglei000@gmail.com>",
+  "license": "ISC",
+  "repository": "git@github.com:qs-coder/qs-eslint-config.git",
+  "keywords": [
+    "qingshi",
+    "eslint",
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.6",
+    "eslint-config-airbnb": "^19.0.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./.eslintrc.js"
+    ]
+
+  }
+}

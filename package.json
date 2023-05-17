@@ -16,7 +16,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "release": "bumpp -r && pnpm -r publish"
+    "release": "bumpp -r && pnpm -r publish --access public"
   },
   "dependencies": {
     "@antfu/eslint-config": "^0.38.6",

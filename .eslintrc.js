@@ -1,12 +1,11 @@
 module.exports = {
   root: true,
-  extends: ['airbnb', '@antfu'],
+  extends: ['@antfu'],
   rules: {
-    'curly': [2, 'all'],
-    'import/prefer-default-export': 0,
-    'import/no-extraneous-dependencies': 0,
-    'vue/max-attributes-per-line': [2, { singleline: { max: 5 }, multiline: { max: 1 } }],
-    'arrow-body-style': [2, 'as-needed'],
+    'n-debugger': 0,
     'no-console': 0,
+    'no-alert': 0,
+    'no-await-in-loop': 0,
+    'curly': [2, 'all'],
   },
 }

@@ -20,9 +20,7 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^0.38.6",
-    "bumpp": "^9.1.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^17.0.0"
+    "bumpp": "^9.1.0"
   },
   "devDependencies": {
     "eslint": "^8.40.0"

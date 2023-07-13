@@ -7,5 +7,6 @@ module.exports = {
     'no-alert': 0,
     'no-await-in-loop': 0,
     'curly': [2, 'all'],
+    'max-statements-per-line': 0,
   },
 }
